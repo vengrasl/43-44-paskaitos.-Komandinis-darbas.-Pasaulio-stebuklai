@@ -1,0 +1,34 @@
+footer {
+    background-color: rgb(226, 204, 204);
+}
+.container{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    align-items: end;
+    justify-items: center;
+
+}
+
+.container > p {
+    grid-area: 2/1/3/4;
+    padding: 50px;
+}
+.container ul {
+    padding-left: 0;
+}
+.container ul li {
+    list-style-type: none;
+    font-size: 1.3rem;
+    padding: 10px;
+
+}
+.container ul li a {
+    text-decoration: none;
+    color: black;
+}
+.social-media {
+    display: flex;
+}
+.fastLinks h5 {
+    padding: 10px;
+}
