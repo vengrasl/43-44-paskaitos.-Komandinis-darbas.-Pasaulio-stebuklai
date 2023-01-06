@@ -1,0 +1,58 @@
+header {
+    width: 100%;
+}
+
+header nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(61, 8, 20, 0.719);
+}
+nav span {
+    color: #ffffff;
+}
+nav h2 {
+    padding-left: 20px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 10px;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+header .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+
+header .icons .fa-brands {
+    padding: 3px;
+    color: rgb(255, 255, 255);
+}
+
+header .icons .fa-brands:hover {
+    color: rgb(198, 179, 142);
+    transition: 2s;
+    scale: 1.5;
+}
+header ul li  a:hover {
+    color: rgb(198, 179, 142);
+    border-bottom: 2px solid  white;
+    border-top: 2px solid  white;
+    padding: 10px;
+    transition: 2s;
+
+}
