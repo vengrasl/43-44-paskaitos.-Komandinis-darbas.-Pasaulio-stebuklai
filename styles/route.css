@@ -2,4 +2,13 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+}
+:root{
+  --color-main: rgb(61, 8, 20);
+  --color-main_2: rgb(231, 249, 169);
+  --color-main_3: rgb(198, 179, 142);
+  --color-main_4: rgb(154, 155, 115);
+  --color-main_5: rgb(68, 47, 56);
+  --font-family: 'Roboto', sans-serif;
 }
