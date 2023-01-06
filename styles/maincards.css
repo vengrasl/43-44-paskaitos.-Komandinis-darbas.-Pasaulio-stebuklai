@@ -1,17 +1,27 @@
+#cards .cards-h1 {
+    font-size: 2rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+#cards .cards-h1 span{
+    color:rgb(61, 8, 20);
+}
+
+
 #container{
     position : relative;
-    width : 1100px;
     display: flex;
     flex-direction:row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: nowrap;
-    gap: 30px;
+    gap: 50px;
     margin: 30px;
 }
 
 #container .card {
     position: relative;
-    width : 500px;
+    width : 370px;
     height : 350px;  
     background-color: rgb(68, 47, 56);
     padding: 20px 10px;
@@ -36,10 +46,7 @@
 .toursInfo{
     display: flex;
     flex-direction: row;
-    gap: 40px;
-    padding-top: 20px;
-    padding-left: 10px;
-    margin-left: 0;
+    justify-content: space-between;
 }
 
 .toursIn1 h1{
@@ -48,8 +55,10 @@
 
 .toursIn2{
     display: flex;
-    flex-direction: column;
-    align-self: flex-end;
+    flex-direction: column; 
+    align-content: flex-end;
+    padding-top: 60px; 
+    line-height: 2px;
 }
 
 .toursIn2 p{
