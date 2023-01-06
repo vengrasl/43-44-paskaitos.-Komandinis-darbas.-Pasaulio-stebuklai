@@ -19,7 +19,7 @@
     margin: 30px;
 }
 
-#container .card {
+#container .card1 {
     position: relative;
     width : 370px;
     height : 350px;  
@@ -33,27 +33,27 @@
     color: rgb(231, 249, 169);
 }
 
-#container .card:hover{
+#container .card1:hover{
     box-shadow: 10px  10px 0 10px rgb(231, 249, 169, 1);;
     }
 
-#container .card .tourBox img {
+#container .card1 .tourBox1 img {
     width : 100%;
     height: 200px;
     border-radius : 15px;
 }
     
-.toursInfo{
+.toursInfo1{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.toursIn1 h1{
+.toursIn12 h1{
     font-size: 1.5rem;
 }
 
-.toursIn2{
+.toursIn21{
     display: flex;
     flex-direction: column; 
     align-content: flex-end;
@@ -61,12 +61,12 @@
     line-height: 2px;
 }
 
-.toursIn2 p{
+.toursIn21 p{
     font-size: 1rem;
     text-align: right;
 }
 
-.toursIn2 h3{
+.toursIn21 h3{
     font-size: 1.2rem;
     text-align: right;
 }
