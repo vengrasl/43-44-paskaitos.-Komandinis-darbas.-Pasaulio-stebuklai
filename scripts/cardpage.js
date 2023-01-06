@@ -1,7 +1,7 @@
-const container = document.getElementById('CardsContainer');
+const container1 = document.getElementById('CardsContainer');
 const referenceNode = document.querySelector('footer');  
 
-referenceNode.insertAdjacentElement('beforebegin', container);  
+referenceNode.insertAdjacentElement('beforebegin', container1);  
 
 fetch('data.json')
   .then(response => response.json())
@@ -55,7 +55,7 @@ fetch('data.json')
       
       content.appendChild(description);
       card.appendChild(content);
-      container.appendChild(card);
+      container1.appendChild(card);
     });
     
 });
