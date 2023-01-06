@@ -7,21 +7,88 @@
     <title>43-44 paskaitos. Komandinis projektas</title>
     <link rel="stylesheet" href="./styles/main.css" />
     <script src="./scripts/main.js" defer></script>
+    <script src="https://kit.fontawesome.com/a3adda0309.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <header></header>
+    <header>
+    <!-- testing -->
+    <nav>
+      <h2>7 World<span> Wonders</span></h2>
+      <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#aboutUs">About Us</a></li>
+          <li><a href="#cards">Featured</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+      </ul>
+      <div class="icons">
+          <!-- ikonu nuorodos -->
+          <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://twitter.com/home" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+  </nav>
+  </header>
     <main>
       <section id="hero">
         <h1 class="hero-h1">
           Exploring 7 wonders <br />
           of the world
         </h1>
-        <a href="">Explore Wonders</a>
+        <a href="./cardpage.html">Explore Wonders</a>
       </section>
-      <section id="aboutUs"></section>
-      <section id="cards"></section>
-      <section id="contacts"></section>
+      <section id="aboutUs">
+      <div>
+        <h1>About US</h1> 
+      </div>
+      <div class="moreInfo">
+        <div class="image">
+          <img src="https://cdn.thecollector.com/wp-content/uploads/2021/12/seven-wonder-world-christ-statue-colosseum-great-wall.jpg?width=1400&quality=70" alt="7Wonders">
+        </div>
+        <div class="infoStyle">
+          <p>The first seven wonders of the ancient world list was made more than 2000 years ago, by adventurous Hellenic travelers who marveled at the world’s most incredible man-made constructions. Since then, most of the original list have been destroyed, aside from the Great Pyramid of Giza. In 2001, Swiss-born, Canadian filmmaker Bernard Weber set up the New 7 Wonders Foundation to find a new seven wonders of the world for the modern era, asking members of the public to cast their votes. After months of deliberating, debating and shortlists, these are the impressive feats that made the final cut.</p>
+          <h3>Use our travel guide to browse amazing Wonders in different categories, plan your bucket list or get inspiration for your next trip...</h3>
+          <a href="./aboutUs.html">Read more...</a>
+        </div>
+      </div>
+    </section>
+      <section id="cards">
+        <h1 class="cards-h1">Featured <span>Tours</span></h1>
+        <div id="container"></div> 
+      </section>
+       <section id="contacts">
+      <h1>Contact us</h1>
+      <form class="inputForm">
+        <input type="text" name="contactsName" class="contactsName" placeholder="Enter your name">
+        <input type="text" name="contactsEmail" class="contactsEmail" placeholder="Enter your e-mail adress">
+        <textarea name="contactsMessage" class="contactsMessage" rows="4" cols="50" placeholder="Leave us a message"></textarea>
+        <button class="contactsButton">Submit</button>
+      </form>
+    </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="container">
+        <ul class="social-media">
+          <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"> </i> Facebook</a></li>
+          <li><a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+          <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+          <li><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i> LindedIn</a></li>
+        </ul>
+        <ul class="pp">
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Other info</a></li>
+        </ul>
+        <div class="fastLinks">
+          <h5>Fast Links</h5>
+          <ul>
+            <li><a href="#Home">Hero</a></li>
+            <li><a href="#aboutUs">About Us</a></li>
+            <li><a href="#cards">Featured</a></li>
+          </ul>
+        </div>
+        <p>© Copyright 2023 7 World Wonders. All rights reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>
