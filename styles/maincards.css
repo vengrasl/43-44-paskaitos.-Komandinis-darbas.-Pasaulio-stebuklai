@@ -19,7 +19,7 @@
     margin: 30px;
 }
 
-#container .card1 {
+#container .card {
     position: relative;
     width : 370px;
     height : 350px;  
@@ -27,46 +27,25 @@
     padding: 20px 10px;
     display : flex;
     flex-direction : column;
-    box-shadow : 0 10px 30px rgb(231, 249, 169, 0.8);;
+    box-shadow : 0 10px 30px rgb(68, 47, 56, 0.8);
     transition : 0.3s ease-in-out;
     border-radius : 15px;
     color: rgb(231, 249, 169);
 }
 
-#container .card1:hover{
-    box-shadow: 10px  10px 0 10px rgb(231, 249, 169, 1);;
-    }
-
-#container .card1 .tourBox1 img {
+#container .card .tourBox img {
     width : 100%;
     height: 200px;
     border-radius : 15px;
 }
     
-.toursInfo1{
+.toursInfo{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.toursIn12 h1{
+.toursIn1 h1{
     font-size: 1.5rem;
 }
 
-.toursIn21{
-    display: flex;
-    flex-direction: column; 
-    align-content: flex-end;
-    padding-top: 60px; 
-    line-height: 2px;
-}
-
-.toursIn21 p{
-    font-size: 1rem;
-    text-align: right;
-}
-
-.toursIn21 h3{
-    font-size: 1.2rem;
-    text-align: right;
-}
