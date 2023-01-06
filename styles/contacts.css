@@ -1,0 +1,36 @@
+#contacts > h1 {
+  text-align: center;
+}
+.inputForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.contactsName{
+  width: 200px;
+}
+
+.contactsEmail{
+  width: 200px;
+}
+
+.contactsMessage{
+  width: 400px;
+}
+
+.contactsButton{
+  width: 150px;
+  height: 40px;
+  background-color: rgb(61, 8, 20);
+  color: white;
+}
+
+.contactsButton:hover{
+  opacity: 0.8;
+}
+
+.contactsButton:active{
+  opacity: 0.7;
+}
