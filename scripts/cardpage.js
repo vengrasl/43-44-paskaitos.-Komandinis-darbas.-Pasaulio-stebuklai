@@ -1,10 +1,12 @@
+const container = document.getElementById('CardsContainer');
+const referenceNode = document.querySelector('footer');  // choose the element you want to insert before
+
+referenceNode.insertAdjacentElement('beforebegin', container);  // insert before the reference node
+
 fetch('data.json')
   .then(response => response.json())
   .then(data => {
     
-    const container = document.createElement('div');
-    container.id = 'container';
-
     data.wonders.forEach(wonder => {
       const card = document.createElement('div');
       card.classList.add('card');
@@ -56,7 +58,8 @@ fetch('data.json')
       container.appendChild(card);
     });
     
-    document.body.appendChild(container);
+    // remove this line, since we've already appended the container to the desired location
+    //document.body.appendChild(container);
 });
 
 
